@@ -34,7 +34,7 @@ class Contact extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Contact With Us</h2>
-                                    <p>If you're looking for a reliable software company that can help you to develop custom software applications that meet your specific needs, look no further than us.</p>
+                                    <p> We value your feedback and inquiries, and we look forward to hearing from you.</p>
                                 </div>
                             </div>
                         </div>
