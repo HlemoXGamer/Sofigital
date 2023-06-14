@@ -5,6 +5,41 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import Slider from "react-slick";
+import { customSlickDot, portfolioSlick } from "../page-demo/script";
+
+const features = [
+  {
+    title: "One Third",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing.",
+  },
+  {
+    title: "One Third",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing.",
+  },
+  {
+    title: "One Third",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing.",
+  },
+  {
+    title: "One Third",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing.",
+  },
+  {
+    title: "One Third",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing.",
+  },
+  {
+    title: "One Third",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing.",
+  },
+];
 
 class ServiceDetails extends Component {
   constructor() {
@@ -150,6 +185,32 @@ class ServiceDetails extends Component {
                       </div>
                     </div>
                     {/* End Single Area */}
+                    {/* Start Columns Area */}
+                    <div className="wrapper portfolio-sacousel-inner mb--55">
+                      <div className="portfolio-slick-activation mt--70 mt_sm--40">
+                        <Slider {...customSlickDot}>
+                          {features.map((feature, index) => (
+                            <div className="portfolio" key={index}>
+                              <div className="rn-columns-area ptb--120 bg_color--1">
+                                <div className="container">
+                                  <div className="row">
+                                    <div className="col-12 p-0">
+                                      <div className="single-column custom-color">
+                                        <h4 className="tilte">
+                                          {feature.title}
+                                        </h4>
+                                        <p>{feature.content}</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </Slider>
+                      </div>
+                    </div>
+                    {/* End Columns Area */}
                   </div>
                 </div>
               </div>

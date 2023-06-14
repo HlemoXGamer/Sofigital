@@ -63,7 +63,7 @@
         transition: transform .28s ease;
         z-index: 4;
         &.image-1{
-            background-image: url(/assets/images/portfolio/portfolio--1.svg);
+            background-image: url(/assets/images/portfolio/image-1.png);
         }
 
         &.image-2{
@@ -77,6 +77,9 @@
         &.image-4 {
             background-image: url(/assets/images/portfolio/portfolio-4.jpg);
         }
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/image-2.png);
+        }
 
         &::after{
             background-color: rgba(45,45,45,.35);
@@ -89,7 +92,7 @@
             z-index: 1;
             display: block;
             border-radius: 5px;
-            background-color: rgba(25,25,25,.37);
+            background-color: rgba(25,25,25,.40);
             @extend %transition;
         }
     }

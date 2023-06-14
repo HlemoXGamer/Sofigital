@@ -37,6 +37,12 @@ import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
+import ProjectDetails from "./elements/ProjectDetails"
+import ElSaleh from './elements/ElSaleh'
+import Hotely from './elements/Hotely'
+import Oscar from './elements/Oscar'
+import Sable from './elements/Sable'
+import Secureship from './elements/Secureship'
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -93,6 +99,12 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/project-details`} component={ProjectDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/elsaleh`} component={ElSaleh}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/hotely`} component={Hotely}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/oscar`} component={Oscar}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/sable`} component={Sable}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/secureship`} component={Secureship}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 
