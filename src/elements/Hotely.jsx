@@ -74,8 +74,8 @@ class ServiceDetails extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                  <p>Fresh From The Press Discription</p>
+                  <h2 className="title theme-gradient">HOTELY</h2>
+                  <p>Hotely services refer to the amenities</p>
                 </div>
               </div>
             </div>
@@ -92,41 +92,49 @@ class ServiceDetails extends Component {
                   <div className="inner">
                     {/* Start Single Area */}
                     <div className="row sercice-details-content pb--80 align-items-center">
-                      <div className="col-lg-6 col-12">
+                      <div className="col-lg-4 col-12">
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src="/assets/images/service/service-01.png"
+                            src="/assets/images/service/hotely.png"
                             alt="Service Images"
                           />
                         </div>
                       </div>
-                      <div className="col-lg-6 col-12">
+                      <div className="col-lg-8 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <p>
-                            but the majority have suffered alteration in some
-                            form, by injected humour, or randomised words which
-                            don't look even slightly believable. If you are
-                            going to use a passage of Lorem Ipsum. You need to
-                            be sure there isn't anything embarrassing
-                          </p>
-                          <p>
-                            hidden in the middle of text. All the Lorem Ipsum
-                            generators tend toitrrepeat predefined chunks.
-                            Necessary, making this the first true generator on
-                            the Internet.
+                            Hotely services refer to the amenities, facilities,
+                            and assistance that a hotel provides to its guests
+                            during their stay. These services can vary depending
+                            on the type of hotel and its location, but
+                            generally, they include accommodation, housekeeping,
+                            food and beverage, front desk and concierge
+                            services, business services, fitness and spa, Wi-Fi,
+                            room amenities, and laundry services. Hotely
+                            services aim to provide guests with a comfortable
+                            and enjoyable stay, and can greatly enhance the
+                            overall travel experience. in addition to having a
+                            Dashboard
                           </p>
                           <h4 className="title">Proceess of metel</h4>
                           <ul className="liststyle">
-                            <li>Yet this above sewed flirted opened ouch</li>
-                            <li>Goldfinch realistic sporadic ingenuous</li>
                             <li>
-                              Abominable this abidin far successfully then like
-                              piquan
+                              Occupancy rates: Current occupancy rates of the
+                              hotel, including the number of rooms available,
+                              the number of rooms occupied, and the percentage
+                              of occupancy.
                             </li>
-                            <li>Risus commodo viverra</li>
                             <li>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              Reservations: Hotel's current reservations,
+                              including the number of reservations for each day,
+                              the number of rooms reserved, and the room types
+                              that are most popular.
+                            </li>
+                            <li>
+                              Guest feedback: Feedback from guests, including
+                              ratings and comments about their stay, and any
+                              issues that have been reported.{" "}
                             </li>
                           </ul>
                         </div>
@@ -136,7 +144,7 @@ class ServiceDetails extends Component {
 
                     {/* Start Single Area */}
                     <div className="row sercice-details-content align-items-center">
-                      <div className="col-lg-6 col-12 order-2 order-lg-1">
+                      <div className="col-lg-8 col-12 order-2 order-lg-1">
                         <div className="details mt_md--30 mt_sm--30">
                           <p>
                             but the majority have suffered alteration in some
@@ -162,11 +170,11 @@ class ServiceDetails extends Component {
                           </ul>
                         </div>
                       </div>
-                      <div className="col-lg-6 col-12 order-1 order-lg-2">
+                      <div className="col-lg-4 col-12 order-1 order-lg-2">
                         <div className="thumb position-relative">
                           <img
                             className="w-100"
-                            src="/assets/images/service/service-02.png"
+                            src="/assets/images/service/hotely2.png"
                             alt="Service Images"
                           />
                           <ModalVideo

@@ -99,7 +99,7 @@ class ServiceDetails extends Component {
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src="/assets/images/service/service-01.png"
+                            src="/assets/images/service/service-01.svg"
                             alt="Service Images"
                           />
                         </div>
@@ -119,28 +119,23 @@ class ServiceDetails extends Component {
                           <ul className="liststyle">
                             <li>
                               Shipment tracking: Users can track the progress of
-                              their shipments in real-time, from the moment they
-                              are picked up to the moment they are delivered.
+                              their shipments
                             </li>
                             <li>
                               Shipping labels: Users can create and print
-                              shipping labels directly from the online system,
-                              eliminating the need for manual label creation.
+                              shipping labels directly.
                             </li>
                             <li>
                               Carrier selection: Users can choose from a variety
-                              of carriers and shipping options, allowing them to
-                              find the best rates and delivery times.
+                              of carriers.
                             </li>
                             <li>
-                              Address validation: The system can validate
-                              shipping addresses to ensure accurate delivery and
-                              avoid delays.
+                              Address validation: The system can validate his
+                              shipping addresses.
                             </li>
                             <li>
                               Reporting: Users can access reports on their
-                              shipping history, costs, and other metrics to help
-                              them optimize their shipping processes.
+                              shipping process details.
                             </li>
                           </ul>
                         </div>
@@ -152,20 +147,7 @@ class ServiceDetails extends Component {
                     <div className="row sercice-details-content align-items-center">
                       <div className="col-lg-8 col-12 order-2 order-lg-1">
                         <div className="details mt_md--30 mt_sm--30">
-                          <p>
-                            but the majority have suffered alteration in some
-                            form, by injected humour, or randomised words which
-                            don't look even slightly believable. If you are
-                            going to use a passage of Lorem Ipsum. You need to
-                            be sure there isn't anything embarrassing
-                          </p>
-                          <p>
-                            hidden in the middle of text. All the Lorem Ipsum
-                            generators tend toitrrepeat predefined chunks.
-                            Necessary, making this the first true generator on
-                            the Internet.
-                          </p>
-                          <h4 className="title">Our Working Process</h4>
+                          <h4 className="title">Challenges</h4>
                           <ul className="liststyle">
                             <li>Yet this above sewed flirted opened ouch</li>
                             <li>Goldfinch realistic sporadic ingenuous</li>

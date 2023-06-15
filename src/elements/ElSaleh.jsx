@@ -74,8 +74,8 @@ class ServiceDetails extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                  <p>Fresh From The Press Discription</p>
+                  <h2 className="title theme-gradient">EL SALEH</h2>
+                  <p>A charity projects system</p>
                 </div>
               </div>
             </div>
@@ -92,41 +92,47 @@ class ServiceDetails extends Component {
                   <div className="inner">
                     {/* Start Single Area */}
                     <div className="row sercice-details-content pb--80 align-items-center">
-                      <div className="col-lg-6 col-12">
+                      <div className="col-lg-4 col-12">
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src="/assets/images/service/service-01.png"
+                            src="/assets/images/service/saleh1.svg"
                             alt="Service Images"
                           />
                         </div>
                       </div>
-                      <div className="col-lg-6 col-12">
+                      <div className="col-lg-8 col-12">
                         <div className="details mt_md--30 mt_sm--30">
                           <p>
-                            but the majority have suffered alteration in some
-                            form, by injected humour, or randomised words which
-                            don't look even slightly believable. If you are
-                            going to use a passage of Lorem Ipsum. You need to
-                            be sure there isn't anything embarrassing
-                          </p>
-                          <p>
-                            hidden in the middle of text. All the Lorem Ipsum
-                            generators tend toitrrepeat predefined chunks.
-                            Necessary, making this the first true generator on
-                            the Internet.
+                            El Saleh project is a framework for managing and
+                            organizing initiatives aimed at raising funds or
+                            awareness for charitable causes. in addition to the
+                            dashboard for a charity system includes Donation
+                            Tracker, Fundraising Goals, Project Tracker,
+                            Volunteer Management, Social Media Metrics, and
+                            Financial Reports.
                           </p>
                           <h4 className="title">Proceess of metel</h4>
                           <ul className="liststyle">
-                            <li>Yet this above sewed flirted opened ouch</li>
-                            <li>Goldfinch realistic sporadic ingenuous</li>
                             <li>
-                              Abominable this abidin far successfully then like
-                              piquan
+                              Fundraising platform: platform allows individuals
+                              or organizations to collect donations.
                             </li>
-                            <li>Risus commodo viverra</li>
                             <li>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              Donor management: involves tracking donor
+                              information to organizing communications.
+                            </li>
+                            <li>
+                              Event management: Event management involves
+                              planning and executing charity events
+                            </li>
+                            <li>
+                              Impact reporting: measuring and communicating the
+                              impact of initiatives to donors
+                            </li>
+                            <li>
+                              Financial management: tracking and reporting on
+                              the financial aspects of initiatives
                             </li>
                           </ul>
                         </div>
@@ -136,22 +142,9 @@ class ServiceDetails extends Component {
 
                     {/* Start Single Area */}
                     <div className="row sercice-details-content align-items-center">
-                      <div className="col-lg-6 col-12 order-2 order-lg-1">
+                      <div className="col-lg-8 col-12 order-2 order-lg-1">
                         <div className="details mt_md--30 mt_sm--30">
-                          <p>
-                            but the majority have suffered alteration in some
-                            form, by injected humour, or randomised words which
-                            don't look even slightly believable. If you are
-                            going to use a passage of Lorem Ipsum. You need to
-                            be sure there isn't anything embarrassing
-                          </p>
-                          <p>
-                            hidden in the middle of text. All the Lorem Ipsum
-                            generators tend toitrrepeat predefined chunks.
-                            Necessary, making this the first true generator on
-                            the Internet.
-                          </p>
-                          <h4 className="title">Our Working Process</h4>
+                          <h4 className="title">Challenges</h4>
                           <ul className="liststyle">
                             <li>Yet this above sewed flirted opened ouch</li>
                             <li>Goldfinch realistic sporadic ingenuous</li>
@@ -162,11 +155,11 @@ class ServiceDetails extends Component {
                           </ul>
                         </div>
                       </div>
-                      <div className="col-lg-6 col-12 order-1 order-lg-2">
+                      <div className="col-lg-4 col-12 order-1 order-lg-2">
                         <div className="thumb position-relative">
                           <img
                             className="w-100"
-                            src="/assets/images/service/service-02.png"
+                            src="/assets/images/service/saleh2.svg"
                             alt="Service Images"
                           />
                           <ModalVideo
